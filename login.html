@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/style-login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@800&family=Montserrat:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo">
+                <img src="gambar/Picsart_23-10-01_15-02-55-732 1.png" alt="">
+                <h3><a href="bodyupgrade.html">MINDCARE</a></h3>           
+            </div>
+            <div class="pembuka">
+                <h1>Selamat Datang di MINDCARE</h1>
+                <h3>Belum punya akun? <a href="daftar.html">Daftar, yuk!</a></h3>
+                <div class="masuk-google"><a href="">MASUK DENGAN GOOGLE</a></div>
+            </div>
+            <hr style="border: 1px solid #5F8BFF; width: 610px;">
+            <div class="login">
+                <div class="email">
+                    <p>Email</p>
+                    <input class="input" type="text" id="username" placeholder="Masukkan Username Anda">
+                </div>
+                <div class="password">
+                    <p>Password</p>
+                    <div class="input-wrapper">
+                        <input class="input" type="password" id="password" placeholder="Masukkan Password Anda">
+                        <img class="eye-icon" src="gambar/eye-off.png" alt="" onclick="togglePassword('password')">
+                    </div>
+                </div>
+                <a href="">Lupa Password</a>
+                <div>
+                    <button class="button-masuk" onclick="checkCredentials()">Login</button>
+                    <p id="message"></p>
+                </div>
+                <div class="partner">
+                    <div class="logo-partner">
+                        <a href="https://www.halodoc.com/"><img src="gambar/Halodoc Indonesia - png.png" alt=""></a>
+                        <a href="https://www.halodoc.com/"><img src="gambar/A.png" alt=""></a>
+                        <a href="https://www.kemkes.go.id/"><img src="gambar/kesehatan ri.png" alt=""></a>
+                        <a href="https://www.who.int/"><img src="gambar/WHO.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gambar-container">
+            <div class="head">
+                <h1>Let's cure <br>
+                    <span>Your Mental</span><br>
+                    disorders and improve your mental health</h1>
+            </div>
+            <div class="gambar">
+                <img class="gambar1" src="gambar/image 25.png" alt="">
+                <img class="gambar2" src="gambar/image 26.png" alt="">
+                <img class="gambar3" src="gambar/image 27.png" alt="">
+                <img class="gambar4" src="gambar/image 25 (1).png" alt="">
+            </div>
+            <div class="penutup">
+                <p>Everything you need to heal and improve your mental <br>
+                    health will be here, which will make things easier for you</p>
+            </div>
+        </div>
+    </div>
+    <script src="JavaScript/js-login.js"></script>
+</body>
+</html>

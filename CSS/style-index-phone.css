@@ -1,0 +1,206 @@
+@media (max-width: 700px) {
+    .container{
+        height: 500px;
+        margin: 30px;
+    }
+
+    .logo img{
+        width: 50px;
+        height: auto;
+    }
+
+    .logo h3{
+        font-size: 15px;
+    }
+
+    .pembuka{
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .pembuka h1{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .pembuka p{
+        font-size: 15px;
+    }
+
+    .input{
+        font-size: 10px;
+        width: 380px;
+        height: 50px;
+    }
+
+    .button-search{
+        padding: 5px 10px;
+        font-size: 10px;
+        bottom: 4px;
+    }
+
+    .about-mental{
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    }
+
+    .partner{
+        margin-top: 50px;
+    }
+
+    .about-mental h2{
+        font-size: 20px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-mental p{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .box-putar {
+        width: 160px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .about-content h3{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .about-content p{
+        font-size: 11px;
+    }
+
+    .box-about, .box-about2, .box-about3 {
+        max-width: none; 
+        display: flex;
+        max-height: 200px;
+    }
+    
+    article{
+        margin: 0;
+    }
+
+    .judul-article{
+        grid-area: garis;
+    }
+
+    .mini-artikel1, .mini-artikel2{
+        display: none;
+    }
+
+    .artikel{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .big-test-container{
+        display: block;
+    }
+
+    .other-test-container{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .saying-container {
+        display: block;
+        align-items: center;
+        height: 870px;
+    }
+
+    .content-saying p {
+        display: none;
+    }
+
+    .people-content {
+        margin: 0px;
+    }
+
+    .angka {
+        display: none;
+    }
+
+    .button1 {
+        display: none;
+    }
+      
+    .button2 {
+        display: none;
+    }
+
+    .content-saying {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .people-container {
+        display: grid;
+        place-items: center;
+    }
+
+    .people-card{
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: 220px;
+    }
+
+    .people-info {
+        margin: 10px;
+    }
+
+    .name {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    .age{
+        font-size: 10px;
+    }
+
+    .people-description {
+        max-width: 45vw;
+        font-size: 10px;
+    }
+
+    div.people-card:nth-child(4),
+    div.people-card:nth-child(5) {
+        display: none;
+    }
+    
+    .join-us{
+        height: 200px;
+    }
+
+    .join-us h1{
+        font-size: 18px;
+    }
+
+    .button-join {
+        width: 250px;
+        height: 40px;
+    }
+
+    footer{
+        display: block;
+        margin: 20px;
+    }
+
+    .mindcare p{
+        width: 350px;
+    }
+    
+    .property, .article, .contact{
+        margin: 20px;
+        margin-left: 10px;
+    }
+}

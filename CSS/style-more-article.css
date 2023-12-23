@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    grid-area: logo;
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.profile h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #7B98FF;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+.dropdown {
+    align-items: center;
+    transition: background-color 0.5s ease, height 0.5s ease;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #7B98FF;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.dropdown li:hover{
+    background-color: #88C1E9;
+}
+
+.navbar a:hover, .dropdown:hover{
+    cursor: pointer;
+}
+
+.login a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #FE9CD5;
+    border: none;
+    border-radius: 15px;
+    padding: 13px 25px;
+    transition: background-color 0.3s ease;
+}
+
+.login :hover {
+    background-color: #88C1E9;
+    cursor: pointer;
+}
+
+article {
+    display: block;
+    margin-bottom: 200px;
+}
+
+.artikel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.article-content{
+    width: 600px;
+    text-align: justify;
+}
+
+.article-content a{
+    text-decoration: none;
+    color: #1B1C57;
+}
+
+.article-content p{
+    color: #626687;
+    font-size: 17px;
+}
+
+.date-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #888B97;
+}
+
+
+footer{
+    display: grid;
+    grid-template-areas: 
+    'mindcare property article contact';
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 20px;
+}
+
+.logo-footer{
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img{
+    width: 70px;
+}
+
+.logo-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.mindcare{
+    grid-area: mindcare;
+}
+
+.article{
+    grid-area: article;
+}
+
+.contact{
+    grid-area: contact;
+}
+
+.mindcare p{
+    font-size: 15px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #737373;
+}
+
+.social-media{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.property, .article, .contact{
+    margin: 20px;
+}
+
+.property ul, 
+.article ul,
+.contact ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.property a,
+.article a,
+.contact a{
+    color: #888B97;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.another-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.garis-footer{
+    grid-area: garis;
+    height: 3px;
+    width: 70%;
+    background-color: black;
+}
+
+.another-footer p{
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    grid-area: copy;
+    color: #737373;
+}
+

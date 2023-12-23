@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.container{
+    display: flex;
+}
+
+.login-container{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    display: block;
+}
+
+.gambar-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #90ACF7;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #5F8BFF;
+}
+
+.logo a{
+    color: #5F8BFF;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.pembuka {
+    font-family: 'Montserrat', sans-serif;
+    color: #5F8BFF;
+    margin-top: 50px;
+}
+
+.pembuka h1{
+    margin-bottom: 10px;
+}
+
+.pembuka a{
+    color: #5F8BFF;
+}
+
+.masuk-google{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: #FD87FF;
+    border-radius: 24px;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masuk-google a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    margin-top: 30px;
+    color: #5F8BFF;
+}
+
+.input{
+    width: 580px;
+    border: 1px solid #5F8BFF;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #5F8BFF;
+}
+
+.input:focus {
+    border-color: #5F8BFF;
+}
+
+.input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: #7B98FF;
+    opacity: 0.5;
+}
+
+.email, .password{
+    margin-bottom: 20px;
+}
+
+.password {
+    position: relative;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+
+.password img{
+    margin-left: -40px; 
+    cursor: pointer;
+}
+
+.login a{
+    color: #5F8BFF;
+    text-decoration: none;
+}
+
+.button-masuk{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FD87FF;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partner{
+    margin-top: 90px;
+}
+
+.logo-partner{
+    display: flex;
+    align-items: center;
+}
+
+.logo-partner a{
+    margin-right: 10px;
+}
+
+.head{
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+
+.head span{
+    color: #FD87FF;
+}
+
+.gambar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+}
+
+.gambar img{
+    max-width: 200px;
+}
+
+.gambar1{
+    position: relative;
+    box-shadow: 20px 20px 0 rgba(123, 152, 255, 0.8);
+}
+
+.gambar4 {
+    position: relative;
+    box-shadow: -20px -20px 0 0 rgba(123, 152, 255, 0.8);
+}
+
+.gambar2 {
+    position: relative;
+    box-shadow: -20px 20px 0 0 rgba(253, 135, 255, 0.8);
+}
+
+.gambar3{
+    position: relative;
+    box-shadow: 20px -20px 0 0 rgba(253, 135, 255, 0.8);
+}
+
+.penutup{
+    font-size: 17px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .gambar-container{
+        display: none;
+    }
+    
+    
+}
